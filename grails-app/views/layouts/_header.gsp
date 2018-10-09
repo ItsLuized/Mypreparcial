@@ -9,7 +9,7 @@
 <html>
     
     <div id="header">
-        <h1 style="font-family:  Impact, Charcoal, sans-serif; color: white"><a class="header-main" href="${resource(dir:'')}">Pagina de Inicio</a></h1>
+        <h1 style="font-family:  Impact, Charcoal, sans-serif; color: white"><p id="login">Pagina de Login.</p></h1>
        <p class="header-sub"  style="font-family:  Impact, Charcoal, sans-serif; color: black">Escriba por favor el nombre de usuario y contraseña</p>
     </div>      
 </html>
