@@ -15,12 +15,14 @@ class BootStrap {
         new Empleo(cargo:"Director de comunicaciones",requisitos:"Maestria",
             salario:"1.200.000").save(failOnError:true);
         
-       // new Profesional(nombre:"Juan", apellido:"Obando",edad:"30", profesion:"Ingeniero Informático").save(failOnError:true); 
-      //  new Profesional(nombre:"Luiz", apellido:"Martinez",edad:"30", profesion:"Ingeniero de Sistemas").save(failOnError:true); 
+        new Profesional(nombre:"Nicole", apellido:"Continelli",edad:"30", 
+            profesion:"Administradora de base de Datos").save(failOnError:true); 
+        
+        new Profesional(nombre:"Luis", apellido:"Martinez",edad:"30", 
+            profesion:"Ingeniero de Sistemas").save(failOnError:true); 
  
-        def Profesional pf= new Profesional(nombre:"Juan", apellido:"Obando",edad:"30"
-            , profesion:"Ingeniero Informático").save(failOnError:true);   
-        pf.save(flush:true)
+        /*def Profesional pf= */new Profesional(nombre:"Juan", apellido:"Obando",edad:"30"
+            , profesion:"Ingeniero Informático").save(failOnError:true);
         
     }
     def destroy = {

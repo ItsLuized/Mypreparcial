@@ -5,8 +5,7 @@ import static org.springframework.http.HttpStatus.*
 
 class EmpleoController {
 
-    EmpleoService empleoService
-
+    EmpleoService empleoService 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {

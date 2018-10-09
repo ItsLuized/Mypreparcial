@@ -6,7 +6,6 @@ import static org.springframework.http.HttpStatus.*
 class ProfesionalController {
 
     ProfesionalService profesionalService
-
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {

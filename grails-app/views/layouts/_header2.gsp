@@ -9,7 +9,11 @@
 <html>
     
     <div id="header">
-        <h1 style="font-family:  Verdana, Geneva, sans-serif; color: white"><a class="header-main" href="${resource(dir:'')}">Empleos y Profesionales</a></h1>
-       <p class="header-sub"  style="font-family:  Verdana, Geneva, sans-serif; color: black">Revise aquí los Empleos disponibles y los Profesionales activos</p>
+        <h1 style="font-family:  Verdana, Geneva, sans-serif; color: white">
+        <g:link controller="empleo" view="index">Crear o Editar Empleos</g:link></h1>
+        <h1 style="font-family:  Verdana, Geneva, sans-serif; color: white">
+        <g:link controller="profesional" view="index">Crear o Editar Profesionales</g:link></h1>
+       <p class="header"  style="font-family:  Verdana, Geneva, sans-serif; color: black">
+       <g:link controller="report_emp_pro" action="report">Revise aquí los Empleos disponibles y los Profesionales activos</g:link></p>
     </div>      
 </html>
